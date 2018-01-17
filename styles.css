@@ -1,0 +1,155 @@
+.musouya-header {
+  position: relative;
+  background-image: url(img/header-bg.jpg);
+}
+
+.musouya-header .mdl-layout__header-row {
+  padding: 0;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mdl-layout__title {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.is-compact .mdl-layout__title span {
+  display: none;
+}
+
+.musouya-logo-row {
+  min-height: 200px;
+}
+
+.is-compact .musouya-logo-row {
+  min-height: auto;
+}
+
+.musouya-logo {
+  background: url(img/logo.png) 50% no-repeat;
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  margin: auto auto 10px;
+}
+
+.is-compact .musouya-logo {
+  height: 50px;
+  width: 50px;
+  margin-top: 7px;
+}
+
+.musouya-navigation-row {
+  background-color: rgba(0, 0, 0, 0.08);
+  text-transform: uppercase;
+  height: 45px;
+}
+
+.musouya-navigation-row  .mdl-navigation {
+  text-align: center;
+  max-width: 900px;
+  width: 100%;
+}
+
+.musouya-navigation-row .mdl-navigation__link {
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  line-height: 42px;
+}
+
+.musouya-header .mdl-layout__drawer-button {
+    background-color: rgba(197, 197, 197, 0.44);
+}
+
+.musouya-navigation-row .is-active {
+  position: relative;
+  font-weight: bold;
+}
+
+.musouya-navigation-row .is-active:after {
+  content: "";
+  width: 70%;
+  height: 2px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(255,64,129);
+  left: 15%;
+}
+
+
+
+img.article-image {
+  width: 100%;
+  height: auto;
+}
+
+.musouya-max-width {
+  max-width: 900px;
+  margin: auto;
+}
+
+.musouya-copy {
+  max-width: 700px;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-left-padding{
+  padding-left: 0;
+}
+
+.no-bottom-padding {
+  padding-bottom: 0;
+}
+
+.padding-top {
+  padding: 10px 0 0;
+}
+
+.musouya-share-btn {
+  position: relative;
+  float: right;
+  top: -4px;
+}
+
+.demo-card-event > .mdl-card__actions {
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+.mdl-card__map {
+  padding: 20px 40px;
+}
+
+
+.twitter-tl {
+  padding: 0px 40px;
+}
+
+.musouya-contact .mdl-textfield {
+  width: 100%;
+}
+
+.musouya-contact form {
+  max-width: 550px;
+  margin: auto;
+}
+
+footer {
+  background-image: url(img/footer-background.png);
+  background-size: cover;
+}
